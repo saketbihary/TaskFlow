@@ -9,5 +9,10 @@
     "seed": "node backend/seed.js",
     "build:frontend": "npm run build --prefix frontend"
   },
+  "eslintConfig": {
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+},
   "workspaces": ["backend", "frontend"]
 }
