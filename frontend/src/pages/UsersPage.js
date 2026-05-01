@@ -9,7 +9,7 @@ import { format } from 'date-fns';
 export default function UsersPage() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [editUser, setEditUser] = useState(null);
+
 
   const load = async () => {
     try {
